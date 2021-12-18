@@ -37,7 +37,17 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # Django Elasticsearch integration
+    'django_elasticsearch_dsl',
+
     'search',
+
+    # REST framework
+    'rest_framework',
+    
+    # Django REST framework Elasticsearch integration (this package)
+    'django_elasticsearch_dsl_drf',
 ]
 
 MIDDLEWARE = [
